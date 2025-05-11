@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4F342C;
+}
+body h1 {
+  display: flex;
+  justify-self: center;
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 700;
+}
+body #jokes-wrapper {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+body #jokes-wrapper #left-jokes, body #jokes-wrapper #right-jokes {
+  width: 400px;
+  height: 600px;
+  background-color: #312B2A;
+  border-radius: 16px;
+}
+body #jokes-wrapper #left-jokes h2, body #jokes-wrapper #right-jokes h2 {
+  margin-top: 1rem;
+  color: #FEF1EE;
+  font-family: "Noto Sans", "sans-serif";
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-self: center;
+}
+body #jokes-wrapper #left-jokes p, body #jokes-wrapper #right-jokes p {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-family: "Noto Sans", "sans-serif";
+  font-size: 24px;
+  font-weight: 400;
+  color: #DECCC7;
+}
+body #comparisons #button-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+body #comparisons #button-wrapper .comperator-btn {
+  background-color: #271E1D;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Noto Sans", "sans-serif";
+  width: 172px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: #271E1D;
+  cursor: pointer;
+}
+body #generate-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 30rem;
+}
+body #generate-wrapper .gnrt-btn {
+  background-color: #FFAF40;
+  width: 172px;
+  height: 50px;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Noto Sans", "sans-serif";
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
